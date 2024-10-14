@@ -4,12 +4,14 @@ Accept this information for five objects using a pointer to the array of objects
 #include <iostream>
 using namespace std;
 
-class Birthday {
+class Birthday
+{
     int day, month, year;
 
 public:
     // Function to input birthday details
-    void input() {
+    void input()
+    {
         cout << "Enter day: ";
         cin >> day;
         cout << "Enter month: ";
@@ -19,12 +21,14 @@ public:
     }
 
     // Function to display birthday details
-    void display() {
+    void display()
+    {
         cout << "Birthday: " << day << "/" << month << "/" << year << endl;
     }
 };
 
-int main() {
+int main()
+{
     // Number of birthday objects
     const int SIZE = 5;
 
@@ -32,14 +36,16 @@ int main() {
     Birthday *ptr = new Birthday[SIZE];
 
     // Input details for each object
-    for (int i = 0; i < SIZE; i++) {
+    for (int i = 0; i < SIZE; i++)
+    {
         cout << "\nEnter details for person " << i + 1 << ":\n";
         ptr[i].input();
     }
 
     // Display the details for each object
     cout << "\nDisplaying all birthdays:\n";
-    for (int i = 0; i < SIZE; i++) {
+    for (int i = 0; i < SIZE; i++)
+    {
         cout << "Person " << i + 1 << ": ";
         ptr[i].display();
     }

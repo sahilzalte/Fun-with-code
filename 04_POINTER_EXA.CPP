@@ -5,14 +5,16 @@ Display the area and volume of that object.*/
 #include <iostream>
 using namespace std;
 
-class Box {
+class Box
+{
     float height;
     float width;
     float breadth;
 
 public:
     // Function to input box dimensions
-    void input() {
+    void input()
+    {
         cout << "Enter height of the box: ";
         cin >> height;
         cout << "Enter width of the box: ";
@@ -22,23 +24,27 @@ public:
     }
 
     // Function to calculate and return the surface area of the box
-    float calculateArea() {
+    float calculateArea()
+    {
         return 2 * (height * width + width * breadth + height * breadth);
     }
 
     // Function to calculate and return the volume of the box
-    float calculateVolume() {
+    float calculateVolume()
+    {
         return height * width * breadth;
     }
 
     // Function to display area and volume
-    void display() {
+    void display()
+    {
         cout << "\nSurface Area of the box: " << calculateArea() << endl;
         cout << "Volume of the box: " << calculateVolume() << endl;
     }
 };
 
-int main() {
+int main()
+{
     // Create a pointer to a Box object
     Box *ptr = new Box;
 
