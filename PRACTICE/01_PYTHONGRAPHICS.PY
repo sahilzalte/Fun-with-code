@@ -1,3 +1,4 @@
+#  this for simple graphics project
 import turtle as r
 import colorsys as sm
 
