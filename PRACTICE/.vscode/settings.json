@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "22_FACTORIAL.C": "cpp"
+        "22_FACTORIAL.C": "cpp",
+        "27_DSU_PRACTICE_EXAM_CODE.C": "cpp"
     }
 }
