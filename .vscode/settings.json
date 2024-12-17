@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "28_INSERT_ARRAY.C": "cpp",
-        "29_INSERT_DISPLAY.C": "cpp"
+        "29_INSERT_DISPLAY.C": "cpp",
+        "22_FACTORIAL.C": "cpp"
     }
 }
