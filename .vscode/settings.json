@@ -1,7 +1,9 @@
 {
     "files.associations": {
+        "*.txt": "html",
         "28_INSERT_ARRAY.C": "cpp",
         "29_INSERT_DISPLAY.C": "cpp",
-        "22_FACTORIAL.C": "cpp"
+        "22_FACTORIAL.C": "cpp",
+        "27_DSU_PRACTICE_EXAM_CODE.C": "cpp"
     }
 }
