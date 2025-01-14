@@ -7,8 +7,6 @@ This repository is a collection of fun and random code snippets written in diffe
 ## Languages Included
 
 - **Python**
-- **C**
-- **C++**
 - **Java**
 - **JavaScript**
 - **HTML/CSS**
