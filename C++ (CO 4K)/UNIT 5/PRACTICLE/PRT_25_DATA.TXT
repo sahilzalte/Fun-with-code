@@ -1,0 +1,3 @@
+Hello, World!
+This is a sequential file write operation.
+Each line is written sequentially.
